@@ -22,24 +22,26 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-10">
         {/* Texto principal */}
         <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          className="bg-[#1b1b1b] rounded-2xl p-6 shadow-lg"
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            className="bg-[#1b1b1b] rounded-2xl p-6 shadow-lg"
         >
-          <p className="text-gray-300 leading-relaxed">
+            <h2 className="text-2xl font-bold text-white mb-4">About Me</h2>
+
+            <p className="text-gray-300 leading-relaxed">
             I’m Nicolas Leal, a software engineering student passionate about building
             clean, user-friendly web apps. I enjoy solving problems, crafting interfaces
             with attention to detail, and learning new tools that help me deliver value.
-          </p>
+            </p>
 
-          <p className="text-gray-300 leading-relaxed mt-4">
+            <p className="text-gray-300 leading-relaxed mt-4">
             Beyond coding, I’m a high-performance athlete. I love swimming, calisthenics,
             and martial arts, and I genuinely enjoy meeting different kinds of people,
             personalities, and cultures. That curiosity and discipline are the same traits
             I bring to my work as a developer.
-          </p>
+            </p>
         </motion.div>
 
         {/* Intereses en “chips” */}

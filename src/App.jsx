@@ -1,18 +1,19 @@
 import Hero from "./components/hero";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import About from "./components/About";
 import Achievements from "./components/Achievements";
-
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-neutral text-white min-h-screen">
+    <div className="bg-black text-red-950">
       <Hero />
       <About />
       <Projects />
       <Achievements />
       <Contact />
+      <Footer />
     </div>
   );
 }
